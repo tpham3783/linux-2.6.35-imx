@@ -750,6 +750,7 @@ static struct usb_device_id id_table_combined [] = {
 	{ USB_DEVICE(FTDI_VID, XVERVE_SIGNALYZER_SH4_PID),
 		.driver_info = (kernel_ulong_t)&ftdi_jtag_quirk },
 	{ USB_DEVICE(FTDI_VID, SEGWAY_RMP200_PID) },
+	{ USB_DEVICE(0x0403, 0x6015) }, /* RS485 adapter */
 	{ },					/* Optional parameter entry */
 	{ }					/* Terminating entry */
 };
