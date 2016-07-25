@@ -881,7 +881,7 @@ static void __init mx53_loco_io_init(void)
 
 	/* USB PWR enable */
 	gpio_request(USB_PWREN, "usb-pwr");
-	gpio_direction_output(USB_PWREN, 0);
+	gpio_direction_output(USB_PWREN, 1);
 
 	/* LCD panel power enable */
 	gpio_request(DISP0_POWER_EN, "disp0-power-en");
